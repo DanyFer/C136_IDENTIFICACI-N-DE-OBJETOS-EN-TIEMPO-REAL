@@ -6,7 +6,7 @@ statu = "";
 function preload()
 {
    //img = loadImage("Tofu_Miet.png");
-   video = createVideo("https://nellygila.github.io/ADV_MP3_IMAGE/Un_mundo_sin_espejo.mp4");
+   video = createVideo("Un_mundo_sin_espejo.mp4");
    
 }
 function setup()
