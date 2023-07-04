@@ -6,14 +6,15 @@ statu = "";
 function preload()
 {
    //img = loadImage("Tofu_Miet.png");
-   video = createVideo("Un_mundo_sin_espejo.mp4");
+   video = createVideo("https://nellygila.github.io/ADV_MP3_IMAGE/Un_mundo_sin_espejo.mp4");
    
 }
 function setup()
 {
-    canvas = createCanvas(850, 480);
+    canvas = createCanvas(600, 300);
 	canvas.center();
-    //video.size(850, 480);
+    //
+    video.size(850, 480);
     video.hide();
 
     
